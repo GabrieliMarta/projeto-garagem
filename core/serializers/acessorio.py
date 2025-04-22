@@ -2,9 +2,9 @@ from attr import fields
 from attrs import field
 from rest_framework.serializers import ModelSerializer
 
-from core.models import Categoria
+from core.models import Acessorio
 
-class CategoriaSerializer(ModelSerializer):
+class AcessorioSerializer(ModelSerializer):
     class Meta:
-        model = Categoria
+        model = Acessorio
         fields = "__all__"
