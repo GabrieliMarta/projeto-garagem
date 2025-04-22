@@ -1,5 +1,3 @@
-from attr import fields
-from attrs import field
 from rest_framework.serializers import ModelSerializer
 
 from core.models import Acessorio
