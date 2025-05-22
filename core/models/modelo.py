@@ -7,6 +7,6 @@ class Modelo(models.Model):
 
 
     def __str__(self):
-        return f"{self.id} - {self.marca} - {self.nome.upper()}"
+        return f'{self.id} - {self.marca} - {self.nome.upper()}'
 
     

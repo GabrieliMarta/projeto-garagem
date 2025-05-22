@@ -8,5 +8,5 @@ class Veiculo(models.Model):
    acessorios = models.ManyToManyField('Acessorio', blank=True)
 
    def __str__(self):
-    return f"Id: {self.id} | Modelo: {self.modelo} | Cor: {self.cor} | Ano: {self.ano}"
+    return f'Id: {self.id} | Modelo: {self.modelo} | Cor: {self.cor} | Ano: {self.ano}'
     
